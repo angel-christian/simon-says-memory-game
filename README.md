@@ -3,6 +3,10 @@
 A classic "Simon Says" memory game built using **HTML**, **CSS**, and **Vanilla JavaScript**.  
 Test your memory as you repeat an ever-growing sequence of flashing buttons — how far can you go?
 
+## Live Demo
+
+Check out at : https://angel-christian.github.io/simon-says-memory-game
+
 ## 🚀 Features
 
 - 🔢 Random color sequence generation each round
