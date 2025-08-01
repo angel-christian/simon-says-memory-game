@@ -60,6 +60,9 @@ function nextLevel() {
     }
     
     function btnPress () {
+
+        if (!gameStarted) return;
+        
         let btn = this ;
         btnFlash(btn) ;
         
