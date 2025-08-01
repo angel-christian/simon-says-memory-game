@@ -72,7 +72,7 @@ These sound effects are used for non-commercial, educational/demo purposes only.
 Original sources:
 
 - [Twinkle Sparkle - SoundEffect](https://pixabay.com/sound-effects/sound-effect-twinklesparkle-115095/) – From Pixabay (Free to use under Pixabay License)
-- [Wrong Answer - SoundEffect][Myinstants.com](https://www.myinstants.com/)
+- [Wrong Answer - SoundEffect] [Myinstants.com](https://www.myinstants.com/)
   
  Note: Myinstants does not provide license details, so this sound is used for non-commercial and demo purposes only.
 
