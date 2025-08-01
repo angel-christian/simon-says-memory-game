@@ -29,9 +29,13 @@ Test your memory as you repeat an ever-growing sequence of flashing buttons — 
 ## 📂 Project Structure
 
 ├── index.html       # Main HTML structure
+
 ├── style.css        # Styles and responsiveness
+
 ├── app.js           # Game logic and interactivity
+
 ├── success.mp3
+
 ├── wrong.mp3
 
 ## 📱 Responsive Design
@@ -57,3 +61,17 @@ Angel Christian
 🧠 “Memory is like a muscle — the more you train it, the stronger it becomes.”
 Challenge yourself with Simon Says! 💪
 
+## 🔊 Sound Effects
+
+This game includes short sound clips for user feedback:
+
+- ✅ **Correct Sound**: `sound-effect-twinklesparkle-115095.mp3`  
+- ❌ **Wrong Sound**: `wrong-answer-sound-effect.mp3`
+
+These sound effects are used for non-commercial, educational/demo purposes only.  
+Original sources:
+
+- [Twinkle Sparkle - SoundEffect](https://pixabay.com/sound-effects/sound-effect-twinklesparkle-115095/) – From Pixabay (Free to use under Pixabay License)
+- [Wrong Answer - SoundEffect](https://www.fesliyanstudios.com/soundeffects-details.php?id=502) – From Fesliyan Studios (Free to use with attribution)
+
+**Note:** If you use these assets in a commercial project, please review the licenses on the original websites for any attribution or usage restrictions.
