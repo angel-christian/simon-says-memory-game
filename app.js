@@ -73,7 +73,7 @@ function nextLevel() {
     }
 
 
-let score = [0] ;
+let highScore = localStorage.getItem("highScore") || 0;
 function checkButn (indx) {
     if ( gameSeq[indx] == userSeq[indx] ){
         if ( gameSeq.length == userSeq.length ){
@@ -81,12 +81,16 @@ function checkButn (indx) {
             setTimeout(nextLevel,1000);
         }
     }else {
-        if ( level-1 > score[0] ){
-            score[0] = level-1 ;
+        const currentScore = level - 1;
+        
+        if (currentScore > highScore) {
+            highScore = currentScore;
+            localStorage.setItem("highScore", highScore);
         }
+        
         wrongSound(this);
-        pc.innerHTML = `<u>GAME OVER!</u> Your Score was <u>${level-1}</u><br>Highest Score was <u>${score[0]}</u><br>Press Any Key To Start` ;
-        mobile.innerHTML = `<u>GAME OVER!</u> Your Score was <u>${level-1}</u><br>Highest Score was <u>${score[0]}</u><br>Press Start Button To Play Again` ;
+        pc.innerHTML = `<u>GAME OVER!</u> Your Score was <u>${currentScore}</u><br>Highest Score was <u>${highScore}</u><br>Press Any Key To Start` ;
+        mobile.innerHTML = `<u>GAME OVER!</u> Your Score was <u>${currentScore}</u><br>Highest Score was <u>${highScore}</u><br>Press Start Button To Play Again` ;
         reset() ;
     }
 }
@@ -112,3 +116,4 @@ function reset() {
     console.log("Game Ended")
     gameStarted = false ;
 }
+
